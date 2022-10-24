@@ -1,0 +1,96 @@
+<!DOCTYPE html!>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio Jan Kamiński - MoveDetecting</title>
+    <meta
+      name="decription"
+      content="Program do wykrywania ruchu oraz rejestrowanie danych w postaci wykresów i plików csv."
+    />
+    <meta
+      name="keywords"
+      content="kamera, detekcja ruchu, csv, wykresy, analiza stresu"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <a href="mainpage.html">
+        <span class="exit-to-index" alt="Wyjście do strony głównej"></span>
+      </a>
+
+      <!-- <img
+          class="exit-to-index"
+          src="img/x-circle.svg"
+          alt="Wyjście do strony głównej"
+        /> -->
+      <div class="content content2">
+        <div class="descrip">
+          <h1>Move detecting</h1>
+          <p>
+            Analiza kinematyki ciała przeprowadzana przez pragram opisany niżej
+            zdecydowanie ułatwiał pracę nad analizą stresu podczas między innymi
+            autoprezentacji, czym był cel projektu. Program został napisany na
+            potrzeby projektu PBL realizowanego na studiach dotyczącego
+            opracowania stanowiska do analizy wypowiedzi publicznych.
+          </p>
+        </div>
+        <div class="part1">
+          <p>
+            Założeniem programu jest badanie kinematyki ruchu człowieka podczas
+            wystąpień przed kamerą. Program powinien analizować ruchy wykonywane
+            wybranymi częściami ciała: ręką prawą, ręką lewą, środkiem między
+            biodrami, środkiem między barkami oraz środkiem ciała (okolice
+            serca).
+          </p>
+          <div class="photo11"><img src="img/punkty.jpg" alt="" /></div>
+        </div>
+        <div class="part4">
+          <p>
+            Na początku program wita użytkownika i pyta o źródło pliku wideo.
+            Jest możliwość wybrania trzech różnych źródeł: kamerka internetowa
+            (w laptopach), kamera podłączona przez USB oraz film zapisany w
+            pamięci komputera. Daje możliwość wybrania momentu na zrobienie
+            screenshota do wykresów tworzonych podczas analizy zebranych dancyh.
+          </p>
+          <div class="photo11"><img src="img/rozmowa1.jpg" alt="" /></div>
+        </div>
+        <div class="part1">
+          <p>
+            Po przetworzeniu pliku lub rejestrowanego filmu w czasie
+            rzeczywistym następuje zapis wszystkich danych do czytelnych
+            formatów takich jak “.csv” oraz “.pdf”. W tym miejscu program daje
+            możliwość wybrania fragmentów filmu, które mają być uwydatnione z
+            całości. Po wyborze fragmentów oraz częstotliwości czasu
+            wyświetlanego program rozpoczyna pracę, wypisując na ekranie ilość
+            przetworzonych plików oraz ilość plików, które jeszcze muszą zostać
+            przetworzone.
+          </p>
+          <div class="photo11"><img src="img/rozmowa3.jpg" alt="" /></div>
+        </div>
+        <div class="part2">
+          <p>Efekty działania programu</p>
+          <div class="photo1">
+            <img src="img/lewa cale.jpg" alt="" /><img
+              class="photo_second"
+              src="img/lewa z tlem.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="part3">
+          <p>oraz wykres wybranego fragmentu.</p>
+          <div class="photo11"><img src="img/lewa krotko.jpg" alt="" /></div>
+        </div>
+        <div class="part3">
+          <p>Program spełnia założenia projektowe.</p>
+        </div>
+        <div class="home">
+          <a href="mainpage.html"><button>Home</button></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

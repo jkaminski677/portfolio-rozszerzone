@@ -1011,6 +1011,10 @@ button:hover {
   margin-bottom: 50px;
 }
 
+.cennikpart1 h2 {
+  text-align: center;
+}
+
 .cennikpart2 {
   margin-bottom: 60px;
 }
@@ -1083,15 +1087,11 @@ button:hover {
 
 .square12 {
   border-right: 2px dashed rgb(111, 111, 111);
-  padding: 0px 50px;
 }
 
-.square13 {
-  padding: 0px 50px;
-}
-
- .square14 {
+.square14 {
   width: 400px;
+  padding: 0px 50px;
  }
 
 #text-widt {
@@ -1103,6 +1103,80 @@ button:hover {
   text-align: start;
 
 }
+
+
+
+
+@media screen and (max-width: 1090px) {
+  .cennikdescrip {
+    width: auto;
+    margin: 10px;
+  }
+  .cennikpart1 {
+    margin: 20px;
+  }
+  .cennikpart2 .square1 {
+    min-width: 200px;
+  }
+  .cennikpart3 .square13 {
+    flex-direction: column;
+  }
+
+  .cennikpart3 img {
+    max-height: 100px;
+    width: auto;
+    margin: 30px 20px 0 22px;
+    transition: none;
+  }
+  .square14 {
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 870px) {
+  .square14 {
+    width: 260px;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .square11 {
+    flex-direction: column;
+  }
+  .square12 {
+    border-right:none;
+    border-bottom: 2px dashed rgb(111, 111, 111);
+  }
+  .square14 {
+    width: 350px;
+    padding: 0px 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cennikpart2 {
+    flex-direction: column;
+  }
+  .square14 {
+    width: 200px;
+    padding: 0px 10px;
+  }
+}
+
+
+@media screen and (max-width: 330px) {
+  .cennikpart2 .square1 {
+    min-width: 150px;
+  }
+  .square14 {
+    width: 130px;
+    padding: 0px 10px;
+  }
+}
+
+
 
 /* ///////////////////////// KONIEC CENNIKA //////////////////////////// */
 

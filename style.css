@@ -7,12 +7,12 @@
 body {
   /* overflow: hidden; */
   background: linear-gradient(
-    -45deg,
-    #569282,
+    /* -45deg, */ #569282,
     #6b9fb7,
     #8163b9,
     #67a482,
-    #789359
+    #789359,
+    #569282
   );
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   /* background-size: 400% 400%; */
@@ -264,14 +264,12 @@ hr.new1 {
   }
 }
 
-
 @media screen and (max-width: 250px) {
   .aboutButton {
     padding: 12px 8px 12px 0px;
     font-size: 80%;
   }
 }
-
 
 .pic1 {
   width: 90%;
@@ -489,7 +487,6 @@ button:hover {
   }
 }
 
-
 @media screen and (max-width: 800px) {
   .photo:active {
     transform: scale(2);
@@ -549,8 +546,6 @@ button:hover {
     margin: 6.5% 0 0 0;
   }
 }
-
-
 
 /* //////////////  Strona powitalna ////////////////////       / */
 
@@ -1071,11 +1066,15 @@ button:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 100px;
+  margin: 20px 150px;
 }
 
 .cennikpart1 p {
   margin-bottom: 50px;
+}
+
+.cennikpart1 .p1 {
+  max-width: 600px;
 }
 
 .cennikpart1 h2 {
@@ -1088,6 +1087,7 @@ button:hover {
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 60px;
 }
 
@@ -1106,7 +1106,6 @@ button:hover {
   font-size: 18px;
 }
 
-
 .cennikpart3 img {
   max-height: 100px;
   width: auto;
@@ -1117,7 +1116,7 @@ button:hover {
 .square11 {
   max-width: auto;
   min-width: 200px;
-  min-height: 300px;
+  min-height: auto;
   /* height: 360px; */
   /* margin: 0 20px 20px 20px; */
   display: flex;
@@ -1147,7 +1146,7 @@ button:hover {
   margin: 5px;
   /* border: 2px solid peru; */
   align-self: flex-start;
- }
+}
 
 #text-widt {
   text-align: center;
@@ -1159,16 +1158,15 @@ button:hover {
   line-height: 1.6;
 }
 
-.grubacena{
+.grubacena {
   font-size: 35px;
 }
-
-
 
 .square141 {
   display: flex;
   width: auto;
-  padding: 0px 10px;
+  height: auto;
+  padding: 0px 80px;
   margin: 5px;
   /* border: 2px solid peru; */
   align-self: flex-start;
@@ -1179,21 +1177,39 @@ button:hover {
   line-height: 4;
 }
 
-.rightInside {
-  padding: 40px 80px 40px 240px;
-  text-align: center;
-}
-
 .midInside {
   padding: 40px 0px;
   text-align: center;
 }
 
-.rightInside ul {
-  list-style-type: none;
+.square241 {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  /* height: 360px; */
+  /* margin: 0 20px 20px 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(111, 111, 111);
+  border-radius: 15px;
+  padding: 60px;
+  margin: 20px;
 }
 
+.line241 {
+  line-height: 2;
+}
 
+.cennikpart1 ul {
+  text-align: start;
+  line-height: 1.8;
+}
+
+/* .rightInside ul {
+  list-style-type: none;
+} */
 
 @media screen and (max-width: 1250px) {
   .cennikdescrip {
@@ -1223,7 +1239,6 @@ button:hover {
   .square14 {
     width: 300px;
   }
-
 }
 
 @media screen and (max-width: 870px) {
@@ -1247,10 +1262,6 @@ button:hover {
     padding: 0px 25px;
     margin-top: 30px;
   }
-
-  .rightInside, .midInside{
-    padding: 10px;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1266,52 +1277,29 @@ button:hover {
     padding: 0;
     text-align: center;
   }
-  
-  .midInside {
-    padding: 0;
-    text-align: center;
-  }
 }
 
-
 @media screen and (max-width: 330px) {
-  .cennikpart2 .square1 {
+  /* .cennikpart2 .square1 {
     min-width: 150px;
   }
   .square14 {
     width: 130px;
     padding: 0px 10px;
-  }
+  } */
 }
-
-
 
 /* ///////////////////////// KONIEC CENNIKA //////////////////////////// */
 
-
 /* ///////////////////////////////////////////////////////////////////// */
 
-
 /* ///////////////////////// POCZĄTEK ABOUT //////////////////////////// */
-
 
 .paczka {
   height: 700px;
 }
 
-
 /* ///////////////////////// KONIEC ABOUT //////////////////////////// */
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
 body {

@@ -1218,7 +1218,6 @@ button:hover {
 
 .szczegolowePakietybox {
   width: 85%;
-  /* border: 2px solid peru; */
   height: auto;
   margin-top: 20px;
 }
@@ -1227,7 +1226,6 @@ button:hover {
   display: flex;
   position: relative;
   flex-direction: row;
-  /* border: solid 2px peru; */
   justify-content: space-between;
   align-items: center;
 }
@@ -1237,7 +1235,6 @@ button:hover {
 }
 
 .pakietOpis {
-  /* border: solid 2px rgb(77, 63, 205); */
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -1259,7 +1256,7 @@ button:hover {
 }
 
 .bordrerixPoziom {
-  width: 220px;
+  width: 270px;
   border-bottom: 2px dashed rgb(111, 111, 111);
   margin-left: -20px;
 }
@@ -1309,23 +1306,19 @@ button:hover {
   .square14 {
     width: 300px;
   }
-  
-  
 }
-
 
 @media screen and (max-width: 1050px) {
-
+  .szczegolowePakietybox {
+    width: 92%;
+    padding-left: 35px;
+  }
 }
 
-
 @media screen and (max-width: 870px) {
-  .square14 {
-    width: 260px;
-    padding: 0px 20px;
-  }
   .szczegolowePakietybox {
     width: 95%;
+    padding-left: 0;
   }
   .bordrerixPoziom {
     width: 150px;
@@ -1353,7 +1346,6 @@ button:hover {
   .grubacena {
     font-size: 30px;
   }
-  
 }
 
 @media screen and (max-width: 660px) {
@@ -1369,8 +1361,9 @@ button:hover {
     width: 350px;
     padding: 0px 25px;
     margin-top: 30px;
+    align-self: center;
   }
-  
+
   .square241 {
     padding: 10px;
     margin: 10px;
@@ -1378,7 +1371,7 @@ button:hover {
   .square241 p {
     font-size: 15px;
   }
-  
+
   .giganapis {
     font-size: 20px;
   }
@@ -1391,7 +1384,7 @@ button:hover {
   .square14 {
     width: auto;
     padding: 0;
-    margin: 0px 2px;
+    margin: 0px;
   }
   .rightInside {
     padding: 0;
@@ -1403,13 +1396,6 @@ button:hover {
 }
 
 @media screen and (max-width: 330px) {
-  /* .cennikpart2 .square1 {
-    min-width: 150px;
-  }
-  .square14 {
-    width: 130px;
-    padding: 0px 10px;
-  } */
   .pakiet .cennikpic1 img {
     height: 60px;
   }
@@ -1426,67 +1412,3 @@ button:hover {
 }
 
 /* ///////////////////////// KONIEC ABOUT //////////////////////////// */
-
-/* 
-body {
-	background: linear-gradient(98deg, #243d66, #4d4c58, #71968f, #639b6f, #9ba566);
-    background-size: 1000% 1000%;
-
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 86%}
-    50%{background-position:100% 15%}
-    100%{background-position:0% 86%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 86%}
-    50%{background-position:100% 15%}
-    100%{background-position:0% 86%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 86%}
-    50%{background-position:100% 15%}
-    100%{background-position:0% 86%}
-} */
-/* 
-body {
-    background: linear-gradient(224deg, #569282, #6b9fb7, #9a88bd, #88bd9f, #a4bd88);
-    background-size: 1000% 1000%;
-
-    -webkit-animation: AnimationName 11s ease infinite;
-    -moz-animation: AnimationName 11s ease infinite;
-    animation: AnimationName 11s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:61% 0%}
-    50%{background-position:40% 100%}
-    100%{background-position:61% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:61% 0%}
-    50%{background-position:40% 100%}
-    100%{background-position:61% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:61% 0%}
-    50%{background-position:40% 100%}
-    100%{background-position:61% 0%}
-} */
-
-/* body {
-    background: linear-gradient(224deg, #569282, #6b9fb7, #9a88bd, #88bd9f, #a4bd88);
-    background-size: 1000% 1000%;
-
-    animation: AnimationName 11s ease infinite;
-}
-
-@keyframes AnimationName {
-    0%{background-position:61% 0%}
-    50%{background-position:40% 100%}
-    100%{background-position:61% 0%}
-} */

@@ -1021,7 +1021,8 @@ button:hover {
     top: 90%;
     right: -20%;
     /* animation: none; */
-    animation: slidebutton 0s forwards 0s, slidebuttonup 1s forwards 2s;
+    /* animation: slidebutton 0s forwards 0s, slidebuttonup 1s forwards 2s; */
+    animation: none;
   }
 
   @keyframes slidebutton {

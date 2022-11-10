@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  --shadow-color: rgb(68, 68, 68);
+}
+
+body {
+  /* overflow: hidden; */
+  background: linear-gradient(
+    /* -45deg, #569282, */ #6b9fb7,
+    #8163b9,
+    #67a482,
+    #789359,
+    #569282
+  );
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  /* background-size: 400% 400%;
+  animation: gradient 17s ease infinite;
+  height: 300vh; */
+  margin: 0;
+  height: auto;
+}
+
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.first_page_body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.ongate {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.freePalceUp {
+  height: 50px;
+}
+
+.firstelement {
+  display: flex;
+  flex-direction: row;
+  /* ater small screen direction - column */
+  border: 2px solid peru;
+  animation: slideup 2s 0.5s forwards;
+  /* animation: slideup 2s forwards; */
+}
+
+@keyframes slideup {
+  from {
+    margin-top: 0;
+  }
+
+  to {
+    margin-top: -18%;
+  }
+}
+
+.gates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: marginal 2s 6s forwards;
+  margin-bottom: 50px;
+  margin-right: -350px;
+  /* border: 2px solid peru; */
+}
+
+@keyframes marginal {
+  from {
+    margin-right: -350px;
+  }
+
+  to {
+    margin-right: 300px;
+  }
+}
+
+.photoCV {
+  opacity: 0;
+}
+.w3-animate-right {
+  position: relative;
+  animation: animateright 3s forwards 7s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.line {
+  position: relative;
+  margin: 0 auto;
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  /* transform: translateY(-40%); */
+}
+
+.line-1 {
+  font-size: 500%;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 1s steps(10) 1s 1 normal both,
+    blinkTextCursor 500ms steps(10, end) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 3em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(37, 37, 37, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.line-2 {
+  font-size: 150%;
+  margin-top: 15px;
+}
+
+.anim-typewriter2 {
+  animation: typewriter2 1.5s steps(15) 3.5s 1 normal both,
+    blinkTextCursor 500ms steps(15) infinite normal;
+}
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+
+.line-3 {
+  font-size: 320%;
+  margin-top: 15px;
+}
+
+.anim-typewriter3 {
+  animation: typewriter3 2s steps(24) 4.9s 1 normal both,
+    blinkTextCursor 500ms steps(24) infinite normal;
+}
+@keyframes typewriter3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+
+.secondelement {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid peru;
+}
+
+.undergatesText {
+  position: relative;
+  margin: 0 auto;
+  /* transform: translateY(2140%); */
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+  font-size: 140%;
+}
+
+.anim-typewriter4 {
+  animation: typewriter4 2s steps(64) 11s 1 normal both,
+    blinkTextCursor 500ms steps(10) infinite normal;
+}
+
+.anim-typewriter5 {
+  animation: typewriter5 2s steps(64) 13s 1 normal both,
+    blinkTextCursor 500ms steps(10) infinite normal;
+}
+.anim-typewriter6 {
+  animation: typewriter6 0.5s steps(34) 14.5s 1 normal both,
+    blinkTextCursor 500ms steps(10) infinite normal;
+}
+.anim-typewriter7 {
+  animation: typewriter7 2s steps(64) 16.5s 1 normal both,
+    blinkTextCursor 500ms steps(10) infinite normal;
+}
+
+@keyframes typewriter4 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35em;
+  }
+}
+@keyframes typewriter5 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35em;
+  }
+}
+
+@keyframes typewriter6 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 7em;
+  }
+}
+
+@keyframes typewriter7 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30em;
+  }
+}
+
+/* .undergatesButton {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+  margin: 0 auto;
+  animation: slidebutton 1s forwards 0s, slidebuttonup 1s forwards 2s;
+}
+
+@keyframes slidebutton {
+  from {
+    top: 90%;
+  }
+
+  to {
+    top: 110%;
+  }
+}
+
+@keyframes slidebuttonup {
+  from {
+    top: 110%;
+  }
+
+  to {
+    top: 90%;
+  }
+} */
+
+.buttonIndex {
+  /* opacity: 0; */
+  /* display: flex; */
+  /* margin-bottom: -200px; */
+  /* border: 2px solid rgb(106, 63, 205); */
+  margin-bottom: -200px;
+}
+
+.textButtonIndex {
+  /* margin-top: -500px; */
+  /* border: 2px solid peru; */
+  /* padding-bottom: 100px; */
+}
+
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 2.4s forwards 5s;
+}
+@keyframes animatebottom {
+  from {
+    margin-bottom: 0;
+    opacity: 0;
+  }
+  to {
+    margin-bottom: 100;
+    opacity: 1;
+  }
+}
+
+.photoCV {
+  opacity: 0;
+}
+.w3-animate-right {
+  position: relative;
+  animation: animateright 3s forwards 7s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}

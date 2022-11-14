@@ -30,9 +30,9 @@
   justify-content: center;
   align-items: center;
   /* border: 2px solid peru; */
-  animation: slideup 2s forwards 7s, slidedown 2s forwards 3.5s;
+  animation: slideup 2s forwards 7s, slidedown 16s forwards 3.5s;
   /* animation: slideup 2s forwards; */
-  height: 100px;
+  height: 10px;
 }
 
 @keyframes slideup {
@@ -61,13 +61,13 @@
   justify-content: center;
   animation: marginal 2s 6s forwards;
   /* margin-bottom: 50px; */
-  margin-right: -350px;
+  margin-right: -320px;
   /* border: 2px solid peru; */
 }
 
 @keyframes marginal {
   from {
-    margin-right: -350px;
+    margin-right: -320px;
   }
 
   to {
@@ -80,7 +80,7 @@
   opacity: 0;
 }
 .photoCV img {
-  height: 350px;
+  height: 320px;
 }
 .w3-animate-right {
   animation: animateright 3s forwards 7s;
@@ -262,11 +262,11 @@
 
 .w3-animate-bottom {
   position: relative;
-  animation: animatebottom 2.4s forwards 5s;
+  animation: animatebottom 2s forwards 9s;
 }
 @keyframes animatebottom {
   from {
-    margin-top: 200px;
+    margin-top: -300px;
     opacity: 0;
   }
   to {

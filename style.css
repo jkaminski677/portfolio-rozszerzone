@@ -140,6 +140,21 @@ header {
   text-align: center;
   padding: 20px;
 }
+
+.names a {
+  text-decoration: none;
+  color: black;
+}
+
+.names a:hover {
+  opacity: 0.5;
+}
+
+.grubo a {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .klik {
   text-align: center;
   padding: 20px 20px 0px 20px;
@@ -660,6 +675,15 @@ button:hover {
   padding: 40px 0px;
   text-align: start;
   line-height: 1.6;
+}
+
+.listaStron a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.listaStron a:hover {
+  opacity: 0.5;
 }
 
 .grubacena {

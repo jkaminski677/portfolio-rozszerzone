@@ -36,15 +36,15 @@ body {
     #4e4e4e
   );
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  /* background-size: 400% 400%; */
-  /* animation: gradient 17s ease infinite; */
-  /* height: 300vh; */
+  background-size: 400% 400%;
+  animation: gradient 17s ease infinite;
+  height: 300vh;
   margin: 0;
   height: auto;
   color: var(--tekt-color);
 }
 
-/* @keyframes gradient {
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -53,8 +53,8 @@ body {
   }
   100% {
     background-position: 0% 50%;
-  } */
-/* } */
+  }
+}
 
 .page {
   max-width: auto;

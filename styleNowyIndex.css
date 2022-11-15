@@ -421,4 +421,14 @@
   .textButtonIndex {
     margin-right: 0;
   }
+  @keyframes animatebottom {
+    from {
+      margin-top: -300px;
+      opacity: 0;
+    }
+    to {
+      margin-top: -100px;
+      opacity: 1;
+    }
+  }
 }

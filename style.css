@@ -2,17 +2,38 @@
 
 :root {
   --shadow-color: rgb(68, 68, 68);
+  --border-color-dashed: rgb(177, 136, 24);
+  --tekt-color: rgb(255, 255, 255);
+  --border-down-dashed: rgb(199, 192, 192);
 }
 
-body {
-  /* overflow: hidden; */
+/* body {
+  overflow: hidden;
   background: linear-gradient(
-    /* -45deg, */ #569282,
+    -45deg, #569282,
     #6b9fb7,
     #8163b9,
     #67a482,
     #789359,
     #569282
+  ); */
+/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+/* background-size: 400% 400%; */
+/* animation: gradient 17s ease infinite; */
+/* height: 300vh; */
+/* margin: 0;
+  height: auto;
+} */
+
+body {
+  /* overflow: hidden; */
+  background: linear-gradient(
+    -45deg,
+    #adadad,
+    #798c94,
+    #696969,
+    #49524d,
+    #4e4e4e
   );
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   /* background-size: 400% 400%; */
@@ -20,6 +41,7 @@ body {
   /* height: 300vh; */
   margin: 0;
   height: auto;
+  color: var(--tekt-color);
 }
 
 /* @keyframes gradient {
@@ -31,8 +53,8 @@ body {
   }
   100% {
     background-position: 0% 50%;
-  }
-} */
+  } */
+/* } */
 
 .page {
   max-width: auto;
@@ -101,7 +123,8 @@ header {
 }
 
 .aboutButton {
-  border-right: 2px dashed rgb(111, 111, 111);
+  /* border-right: 2px dashed rgb(111, 111, 111); */
+  border-right: 2px dashed var(--border-color-dashed);
   height: 100%;
   margin: 3px;
   padding: 8px 25px;
@@ -120,7 +143,8 @@ header {
 }
 
 .content {
-  border: 2px dashed rgb(111, 111, 111);
+  /* border: 2px dashed rgb(111, 111, 111); */
+  border: 2px dashed var(--border-color-dashed);
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -224,7 +248,8 @@ header {
 
 hr.new1 {
   border: none;
-  border-top: 2px dashed rgb(111, 111, 111);
+  /* border-top: 2px dashed rgb(111, 111, 111); */
+  border-top: 2px dashed var(--border-color-dashed);
   width: 100%;
   margin-bottom: 15px;
   transform: translateY(-760%);
@@ -240,7 +265,8 @@ hr.new1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px dashed rgb(111, 111, 111);
+  /* border: 2px dashed rgb(111, 111, 111); */
+  border: 2px dashed var(--border-color-dashed);
   border-radius: 15px;
 }
 
@@ -277,6 +303,10 @@ hr.new1 {
     height: auto;
     padding: 10px 5px;
     margin: 5px 5px;
+  }
+
+  hr.new1 {
+    margin-top: 20px;
   }
 }
 
@@ -650,13 +680,13 @@ button:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 2px dashed rgb(111, 111, 111);
+  border: 2px dashed var(--border-down-dashed);
   border-radius: 15px;
 }
 
 .bordrerix {
   height: 95%;
-  border-left: 2px dashed rgb(111, 111, 111);
+  border-left: 2px dashed var(--border-down-dashed);
 }
 
 .square14 {
@@ -720,7 +750,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px dashed rgb(111, 111, 111);
+  border: 2px dashed var(--border-down-dashed);
   border-radius: 15px;
   padding: 60px;
   margin: 20px;
@@ -784,7 +814,7 @@ button:hover {
 
 .bordrerixPoziom {
   width: 270px;
-  border-bottom: 2px dashed rgb(111, 111, 111);
+  border-bottom: 2px dashed var(--border-color-dashed);
   margin-left: -20px;
 }
 

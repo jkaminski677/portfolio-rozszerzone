@@ -670,6 +670,21 @@ button:hover {
   transition: none;
 }
 
+.CzyliLeft {
+  width: 100%;
+  height: 90%;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.czyliCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
 .square11 {
   max-width: auto;
   min-width: 200px;

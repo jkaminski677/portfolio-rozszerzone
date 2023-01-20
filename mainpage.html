@@ -15,7 +15,6 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="myscript.js"></script>
   </head>
   <body>
     <div class="page">
@@ -57,46 +56,76 @@
       </header>
 
       <div class="content">
-        <div class="names">
-          <h1>Witaj!</h1>
-          <p>nazywam się</p>
-          <h1>Jan Kamiński</h1>
-          <p>
-            Mam 23 lata. Ukończyłem studia I stopnia na Politechnice Śląskiej
-            <br />
-            na kierunku Automatya i Robotyka na wydziale Automatyki, Elektorniki
-            i Informatyki <br />
-            z wykształceniem na poziomie <br />
-            inżynierskim. <br />
-            Aktualnie jestem studentem Informatyki studiów II stopnia na
-            Politechnice Śląskiej.
-            <br />
-            <br />
-            Poniżej umieszczone zostały stworzone przeze mnie strony
-            internetowe, sklepy internetowe, projekty oraz programy w języku
-            programowania python z wykorzystaniem np. biblioteki OpenCV.
-            Niektóre strony internetowe czy projekty mogą być tylko szablonem,
-            dlatego nie zawsze treść tekstu będzie dotyczyła tematu strony :)
-            Jeśli chcesz poznać mnie lepiej wejdź w podstronę "O mnie".
+        <div class="HeadPart">
+          <div class="rightClock">
+            <div class="rama"></div>
+            <div class="inner-clock-faceRight" id="hour-hand">
+              <div class="handRight hour-handRight">
+                <div class="handRight min-handRight"></div>
+              </div>
+            </div>
+            <div class="inner-clock-faceRight2" id="min-hand">
+              <div class="handRight hour-handRight2" >
+                <div class="handRight min-handRight2"></div>
+              </div>
+            </div>
+            <!-- <div class="hand second-hand" id="second-hand"></div> -->
+          </div>
+          <div class="names">
+            <h1>Witaj!</h1>
+            <p>nazywam się</p>
+            <h1>Jan Kamiński</h1>
+            <p>
+              Mam 23 lata. Ukończyłem studia I stopnia na Politechnice Śląskiej
+              <br />
+              na kierunku Automatya i Robotyka na wydziale Automatyki,
+              Elektorniki i Informatyki <br />
+              z wykształceniem na poziomie <br />
+              inżynierskim. <br />
+              Aktualnie jestem studentem Informatyki studiów II stopnia na
+              Politechnice Śląskiej.
+              <br />
+              <br />
+              Poniżej umieszczone zostały stworzone przeze mnie strony
+              internetowe, sklepy internetowe, projekty oraz programy w języku
+              programowania python z wykorzystaniem np. biblioteki OpenCV.
+              Niektóre strony internetowe czy projekty mogą być tylko szablonem,
+              dlatego nie zawsze treść tekstu będzie dotyczyła tematu strony :)
+              Jeśli chcesz poznać mnie lepiej wejdź w podstronę "O mnie".
 
-            <br />
-            <br />
-            Skontaktuj się ze mną:
-            <br />
-            <br />
-            <span class="grubo">
-              tel. <a href="tel:+48784549525"> 784 549 525</a></span
-            >
-            <br />
-            <br />
+              <br />
+              <br />
+              Skontaktuj się ze mną:
+              <br />
+              <br />
+              <span class="grubo">
+                tel. <a href="tel:+48784549525"> 784 549 525</a></span
+              >
+              <br />
+              <br />
 
-            <span class="grubo"
-              >mail:
-              <a href="mailto:jkaminski677@gmail.com">
-                jkaminski677@gmail.com</a
-              ></span
-            >
-          </p>
+              <span class="grubo"
+                >mail:
+                <a href="mailto:jkaminski677@gmail.com">
+                  jkaminski677@gmail.com</a
+                ></span
+              >
+            </p>
+          </div>
+          
+          <div class="clock">
+            <!-- <div class="outer-clock-face"> -->
+              <!-- <div class="marking marking-one"></div>
+              <div class="marking marking-two"></div>
+              <div class="marking marking-three"></div>
+              <div class="marking marking-four"></div>
+              <div class="inner-clock-face">
+                <div class="hand hour-hand" id="hour-hand"></div>
+                <div class="hand min-hand" id="min-hand"></div>
+                <div class="hand second-hand" id="second-hand"></div>
+              </div> -->
+            <!-- </div> -->
+          </div>
         </div>
         <div class="klik">
           <h3>Kliknij w jeden z linków aby zobaczyć wybrany projekt.</h3>
@@ -269,5 +298,6 @@
         </div>
       </div>
     </div>
+    <script src="myscript.js"></script>
   </body>
 </html>

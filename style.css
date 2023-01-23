@@ -186,8 +186,34 @@ header {
   color: black;
 }
 
-.names a:hover {
+.names .grubo a:hover {
   opacity: 0.5;
+}
+
+#Check_more span#a {
+  display: inline;
+}
+
+#Check_more:hover span#a {
+  display: none;
+}
+
+#Check_more span#b {
+  display: none;
+}
+
+#Check_more:hover span#b {
+  display: inline;
+}
+
+.Check_more_Class {
+  width: 350px;
+  height: 120px;
+}
+
+.Check_more_Class:hover{
+  width: 320px;
+  height: 110px;
 }
 
 /* ///////////////////////// START OF ZEGAREK //////////////////////// */
@@ -564,6 +590,17 @@ button:hover {
     text-align: center;
     padding: 20px;
   }
+  .Check_more_Class{
+    width: 300px;
+  }
+  .Check_more_Class h2{
+    font-size: 15px;
+  }
+  .Check_more_Class:hover{
+    font-size: 12px;
+    width: 280px;
+  }
+
 }
 
 @media screen and (max-width: 970px) {
@@ -588,7 +625,6 @@ button:hover {
   .square1 {
     margin-bottom: 20px;
   }
-
 }
 
 @media screen and (max-width: 720px) {
@@ -596,7 +632,6 @@ button:hover {
     flex-direction: column-reverse;
   }
 }
-
 
 @media screen and (max-width: 620px) {
   .exit-to-index {

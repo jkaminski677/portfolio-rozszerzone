@@ -559,10 +559,6 @@ button:hover {
 }
 
 @media screen and (max-width: 1130px) {
-  .exit-to-index {
-    right: 40px;
-    margin: 6.5% 1% 0 0;
-  }
   .names {
     width: 300px;
     text-align: center;
@@ -594,6 +590,13 @@ button:hover {
   }
 
 }
+
+@media screen and (max-width: 720px) {
+  .HeadPart {
+    flex-direction: column-reverse;
+  }
+}
+
 
 @media screen and (max-width: 620px) {
   .exit-to-index {

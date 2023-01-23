@@ -140,6 +140,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
+
 .aboutButton a {
   text-decoration: none;
   color: black;
@@ -646,6 +647,12 @@ button:hover {
     top: -24px;
     left: 10px;
     margin: 6.5% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutButton1{
+    display: none;
   }
 }
 

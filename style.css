@@ -1009,6 +1009,26 @@ button:hover {
   .grubacena {
     font-size: 30px;
   }
+
+
+  .part1 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .part1 p {
+    width: 90%;
+  }
+
+  .part4 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .part4 p {
+    width: 90%;
+  }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -1038,6 +1058,9 @@ button:hover {
   .giganapis {
     font-size: 20px;
   }
+
+  
+
 }
 
 @media screen and (max-width: 500px) {
